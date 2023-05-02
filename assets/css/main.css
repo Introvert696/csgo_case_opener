@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  width: 80vw;
+  height: 100px;
+  background-color: rgb(71, 71, 71);
+  margin: auto;
+  overflow: hidden;
+}
+.case {
+  margin-left: 10px;
+  animation: spin 4s both ease-in-out;
+  border: 1px white solid;
+}
+@keyframes spin {
+  0% {
+  }
+  100% {
+    transform: translate(-8500px);
+  }
+}
+.triangle {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  margin: auto;
+}
